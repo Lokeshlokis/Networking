@@ -1,0 +1,15 @@
+Project: Government Laptop OS Installation & EFI Error Fix
+
+Fixed “Mount EFI System Partition” error on a restricted government-issued laptop.
+
+Used Windows 10 bootable USB (Rufus) to access the repair environment.
+
+Removed restricted partitions and prepared the disk for a clean OS installation.
+
+Used Command Prompt and MBR2GPT to convert the disk from MBR to GPT.
+
+Created the required partitions and completed a clean Windows installation.
+
+Successfully updated the Lenovo BIOS/firmware.
+
+Removed the government boot logo and restored the original Lenovo logo during startup.
